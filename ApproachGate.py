@@ -28,6 +28,7 @@ class ApproachGateState:
 		rospy.loginfo("Approaching gate")
 
 		#Some condition marks this task as complete
+		#Need a function for returnnig the heihgt sof the vertical bars of the gate, result will determine state completion
 		if 0:
 			rospy.loginfo("Approach Gate Task complete, terminating.")
 			taskComplete = True
